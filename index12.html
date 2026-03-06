@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <!-- Paragraph to remove -->
+<p id="demo">Remove this text</p>
+<!-- Button to remove paragraph -->
+<button onclick="removeText()">Remove</button>
+<script>
+function removeText(){
+// Select paragraph and remove it from DOM
+document.getElementById("demo").remove();
+}
+</script>  
+</body>
+</html>
